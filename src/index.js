@@ -7,17 +7,13 @@ import App from './App';
 import { createStore } from 'redux';
 // const store = createStore();
 
-// For reference: consider creating store as the third step in the redux integration process
+// For reference: consider obtaining reducer "postReducer" as the third step in the redux integration process
 import postReducer from './reducers/postReducer';
 // const store = createStore(postReducer);
 
-// For reference: consider creating store as the fourth step in the redux integration process
+// For reference: consider importing "Provider" as the fourth step in the redux integration process
 import { Provider } from 'react-redux';
 const store = createStore(postReducer);
-// ReactDOM.render(
-//     <Provider store={store}><App /></Provider>,
-//     document.getElementById('root')
-// );
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(

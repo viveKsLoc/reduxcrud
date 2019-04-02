@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+// For reference: consider this as the fifth step in the redux integration process
 
-// For reference: consider creating store as the fifth step in the redux integration process
+import React, { Component } from 'react';
 import {connect} from 'react-redux';
 
 class PostForm extends Component {

@@ -1,7 +1,7 @@
+// For reference: consider this as the sixth step in the redux integration process
+
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-
-// For reference: consider creating store as the sixth step in the redux integration process
 
 import Post from '../Post';
 import EditComponent from '../EditComponent';
