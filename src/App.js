@@ -1,25 +1,18 @@
+// For reference: consider this as the basic and fundamental step to begin redux integration process
+
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+// Components
+import PostFrom from './components/PostForm'; 
+import AllPost from './components/AllPost';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <h1>Hello React!</h1>
+        <PostFrom />
+        <AllPost />
       </div>
     );
   }
